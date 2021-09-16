@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+:root{
+  --white:#FFFFF0;
+  --IndianRed :#CD5C5C;
+  --grey:#6f747ad2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* nav links */
+nav a.nav-link{
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 0.6px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li{
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav li a{
+  margin-right:12px;
+  margin-left:12px;
+  border-bottom: solid var(--grey);
+  color: var(--white) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav li a.active, .navbar-nav li a.active:focus{
+  border-bottom: 3px solid var(--IndianRed);
+}
+
+.navbar-nav li a:hover{
+  border-bottom: 3px solid var(--IndianRed);
 }
