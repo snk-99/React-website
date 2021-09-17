@@ -4,18 +4,27 @@
   --white:#FFFFF0;
   --IndianRed :#CD5C5C;
   --grey:#6f747ad2;
+  --red: #DC143C;
 }
 
 *{
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-
+/* nav{
+ margin-top: 1px;
+ height: 100%;
+} */
 /* nav links */
 nav a.nav-link{
   font-size: 15px;
   font-weight: 200;
   letter-spacing: 0.6px;
   cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 nav ul li{
@@ -35,4 +44,67 @@ nav ul li{
 
 .navbar-nav li a:hover{
   border-bottom: 3px solid var(--IndianRed);
+}
+
+
+/* header */
+
+.header-wrapper{
+  position: relative; 
+  background: url(background.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: center; 
+  height: 100vh; 
+  /*top: 0;
+   min-height: 100%;
+  min-width: 1024px;  */
+	
+  /* Set up proportionate scaling
+   width: 100%;
+  height: auto;  */
+	
+  /* Set up positioning */
+  /* position: fixed; 
+  top: 0;
+  left: 0;  */
+  
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-info h1{
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+/* typing text */
+.type-text{
+  font-size: 30px;
+  color: var(--white);
+}
+
+/* btn */
+.btn-contact{
+  border: 1.3px solid var(--IndianRed);
+  text-transform: uppercase;
+  border-radius: 90px;
+  padding: 10px 12px 10px 12px ;
+  color: var(--white);
+  margin-top: 18px;
+}
+.btn-contact:hover{
+  background-color:  var(--IndianRed);
+  text-decoration: none;
+  color: var(--white);
+  transition: .3 ease-in-out;
 }
