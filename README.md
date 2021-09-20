@@ -31,4 +31,7 @@
   * Contact Email: kahurasamuel@gmail.com
   * GitHub Profile: [snk-99](https://github.com/snk-99snk-99)
 
+# Links
+[Deployed App](https://fathomless-crag-60982.herokuapp.com/)
 
+[Github repo](https://github.com/snk-99/React-website)
