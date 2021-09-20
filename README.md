@@ -22,7 +22,10 @@
   ## Test
   N/A
  
-  
+  # Mock-Up
+
+<img width="1436" alt="screenshot" src="./src/img/Screenshot.png">
+
   ## Questions
   Contact me for any questions!!
   * Contact Email: kahurasamuel@gmail.com
